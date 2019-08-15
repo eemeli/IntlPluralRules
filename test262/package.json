@@ -5,12 +5,13 @@
   "license": "ISC",
   "scripts": {
     "pretest": "webpack --output dist/prelude.js --mode none src/prelude.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "test262-harness --prelude dist/prelude.js test262/test/intl402/PluralRules/**/*.js"
   },
   "dependencies": {
     "intl-pluralrules": "file:../polyfill"
   },
   "devDependencies": {
+    "test262-harness": "^6.4.0",
     "webpack": "^4.39.2",
     "webpack-cli": "^3.3.6"
   }
