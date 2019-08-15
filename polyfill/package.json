@@ -12,7 +12,11 @@
   "author": "Eemeli Aro <eemeli@gmail.com>",
   "license": "ISC",
   "homepage": "https://github.com/eemeli/intl-pluralrules#readme",
-  "repository": "eemeli/intl-pluralrules",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eemeli/intl-pluralrules.git",
+    "directory": "polyfill"
+  },
   "files": [
     "plural-rules.js",
     "polyfill.js"

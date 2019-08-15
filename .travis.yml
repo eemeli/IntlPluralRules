@@ -3,3 +3,8 @@ node_js:
   - 'node'
   - 'lts/*'
   - '6'
+
+script:
+  - cd polyfill
+  - npm ci
+  - npm test

@@ -1,5 +1,5 @@
 .*
 node_modules
 package-lock.json
-/plural-rules.js
-/polyfill.js
+/polyfill/plural-rules.js
+/polyfill/polyfill.js
