@@ -1,0 +1,17 @@
+{
+  "name": "intl-pluralrules-test262",
+  "private": true,
+  "author": "Eemeli Aro <eemeli@gmail.com>",
+  "license": "ISC",
+  "scripts": {
+    "pretest": "webpack --output dist/prelude.js --mode none src/prelude.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "intl-pluralrules": "file:../polyfill"
+  },
+  "devDependencies": {
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6"
+  }
+}

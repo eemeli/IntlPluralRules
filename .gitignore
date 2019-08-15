@@ -2,3 +2,4 @@
 node_modules
 /polyfill/plural-rules.js
 /polyfill/polyfill.js
+/test262/dist/
