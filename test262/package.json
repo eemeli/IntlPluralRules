@@ -1,5 +1,6 @@
 {
   "name": "intl-pluralrules-test262",
+  "version": "1.0.0",
   "private": true,
   "author": "Eemeli Aro <eemeli@gmail.com>",
   "license": "ISC",

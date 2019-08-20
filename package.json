@@ -1,0 +1,20 @@
+{
+  "name": "intl-pluralrules-monorepo",
+  "author": "Eemeli Aro <eemeli@gmail.com>",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "install": "for p in polyfill test262; do (cd $p && npm install); done",
+    "postinstall": "[ -f test262/test262/package.json ] || git submodule update --init",
+    "pretest": "cd polyfill && npm test && npm run build",
+    "test": "cd test262 && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eemeli/intl-pluralrules.git"
+  },
+  "dependencies": {
+    "intl-pluralrules": "file:polyfill",
+    "intl-pluralrules-test262": "file:test262"
+  }
+}

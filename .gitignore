@@ -1,5 +1,6 @@
 .*
 node_modules
+/package-lock.json
 /polyfill/plural-rules.js
 /polyfill/polyfill.js
 /test262/dist/
